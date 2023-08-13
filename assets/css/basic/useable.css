@@ -1,0 +1,186 @@
+/* Display proporties */
+.df {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dg {
+    display: grid;
+    /* grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(1fr); */
+}
+.dg-item {
+    grid-area: span 2;
+}
+
+/* Display position */
+.pr {
+    position: relative;
+}
+.pa {
+    position: absolute;
+}
+.pcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* width count "%" */
+.w1 {
+    width: 100%;
+}
+.w2 {
+    width: 50%;
+}
+.w3 {
+    width: 33.33%;
+}
+.w4 {
+    width: 25%;
+}
+.w5 {
+    width: 20%;
+}
+.w6 {
+    width: 16.67%;
+}
+
+/* hight count "%" */
+.h1 {
+    height: 100%;
+}
+.h2 {
+    height: 50%;
+}
+.h3 {
+    height: 33.33%;
+}
+.h4 {
+    height: 25%;
+}
+.h5 {
+    height: 20%;
+}
+.h6 {
+    height: 16.67%;
+}
+
+/* hight count "vh" */
+.hvh {
+    height: 100vh;
+}
+
+/* margin count "px" */
+.m5 {
+    margin: 5px;
+}
+.m8 {
+    margin: 8px;
+}
+.m10 {
+    margin: 10px;
+}
+.m15 {
+    margin: 15px;
+}
+.m20 {
+    margin: 20px;
+}
+/* margin x-axis count "px" */
+.mx5 {
+    margin: 5px;
+}
+.mx8 {
+    margin: 8px;
+}
+.mx10 {
+    margin: 10px;
+}
+.mx15 {
+    margin: 15px;
+}
+.mx20 {
+    margin: 20px;
+}
+/* margin y-axis count "px" */
+.my5 {
+    margin: 5px;
+}
+.my8 {
+    margin: 8px;
+}
+.my10 {
+    margin: 10px;
+}
+.my15 {
+    margin: 15px;
+}
+.my20 {
+    margin: 20px;
+}
+
+/* padding count "px" */
+.p5 {
+    padding: 5px;
+}
+.p8 {
+    padding: 8px;
+}
+.p10 {
+    padding: 10px;
+}
+.p15 {
+    padding: 15px;
+}
+.p20 {
+    padding: 20px;
+}
+/* padding x-axis count "px" */
+.px5 {
+    padding: 5px;
+}
+.px8 {
+    padding: 8px;
+}
+.px10 {
+    padding: 10px;
+}
+.px15 {
+    padding: 15px;
+}
+.px20 {
+    padding: 20px;
+}
+/* padding y-axis count "px" */
+.py5 {
+    padding: 5px;
+}
+.py8 {
+    padding: 8px;
+}
+.py10 {
+    padding: 10px;
+}
+.py15 {
+    padding: 15px;
+}
+.py20 {
+    padding: 20px;
+}
+
+/* button default style */
+.btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: var(--color-btn);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: var(--color-btn-hover);
+    color: var(--color-white);
+}

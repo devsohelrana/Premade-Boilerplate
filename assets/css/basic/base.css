@@ -1,0 +1,32 @@
+/* web application basic color defined */
+:root {
+    /* color using depending on project requirements */
+    --color-primary: #f00;
+    --color-btn: linear-gradient(to left, rgb(9, 202, 128), rgb(0, 119, 255));
+    --color-btn-hover: linear-gradient(to left, rgb(20, 48, 211), rgb(0, 255, 157));
+    --color-white: #ffffff;
+}
+/* web application basic typography defined */
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: var(--color-);
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--color-);
+}
+button {
+    outline: none;
+    border: none;
+}
